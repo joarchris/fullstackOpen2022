@@ -1,0 +1,7 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+server->browser: [{content: "This is a note", date: "2022-05-10T09:51:02.924Z"}, ...]
+
+note over browser:
+Response 201 OK
+end note
