@@ -12,8 +12,8 @@ const Country = ({ filteredCountries }) => {
   return (
     <div key={name}>
       <h2>{name}</h2>
-      <p>capital: {capital}</p>
-      <p>area: {area}</p>
+      <span>capital: {capital}</span>
+      <span>area: {area}</span>
       <h3>languages: </h3>
       <ul>
         {Object.keys(languages).map((language, i) => (
